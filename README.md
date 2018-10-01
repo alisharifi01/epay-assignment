@@ -13,11 +13,11 @@ Here we have 2 ways for deployment instrcution
 ```
 First, clone the project
 ```shell
- $ git clone https://github.com/alisharifi01/epay.git
+ $ git clone https://github.com/alisharifi01/epay-assignment.git
 ```
 Then change directory to project root
 ```shell
- $ cd ./epay
+ $ cd ./epay-assignment
 ```
 
 Use maven spring boot plugin to run project
@@ -41,11 +41,11 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 First, clone the project
 ```shell
- $ git clone https://github.com/alisharifi01/epay.git
+ $ git clone https://github.com/alisharifi01/epay-assignment.git
 ```
 Then change directory to project root
 ```shell
- $ cd ./epay
+ $ cd ./epay-assignment
 ```
 
 Build the project using maven. 
