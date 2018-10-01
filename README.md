@@ -2,7 +2,7 @@
 
 ### Instruciton on Linux (Debian-based distributions)
 
-Here we have 2 ways for deployment instrcution
+Here we have 2 ways for deployment instrcutions
 
 #### 1. Run in your machine
 
@@ -24,7 +24,7 @@ Use maven spring boot plugin to run project
 ```shell
  $ mvn spring-boot:run
 ```
-Launch swagger ui http://localhost:8080/swagger-ui.html
+Launch swagger URL http://localhost:8080/swagger-ui.html
 
  
 #### 2. Build as a docker container
@@ -43,7 +43,7 @@ First, clone the project
 ```shell
  $ git clone https://github.com/alisharifi01/epay-assignment.git
 ```
-Then change directory to project root
+Then change directory to the project root
 ```shell
  $ cd ./epay-assignment
 ```
