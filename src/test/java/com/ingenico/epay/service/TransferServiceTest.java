@@ -5,6 +5,7 @@ import com.ingenico.epay.api.dto.AccountInitResponseDTO;
 import com.ingenico.epay.api.dto.TransferDTO;
 import com.ingenico.epay.api.dto.TransferResponseDTO;
 import com.ingenico.epay.api.exception.DuplicatePartyException;
+import com.ingenico.epay.domain.Account;
 import com.ingenico.epay.repository.AccountRepository;
 import org.junit.Assert;
 import org.junit.Before;
@@ -42,6 +43,9 @@ public class TransferServiceTest {
         Mockito.when(
                 transactionExecutorService.execute(any(),any(),any()))
                 .thenReturn(TRANSFER_REFERENCE);
+
+        Mockito.when(
+                accountRepository.findByIban(any())).thenReturn(new Account());
 
     }
 
